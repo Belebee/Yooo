@@ -10,7 +10,6 @@ from solana.rpc.api import Pubkey
 from spl.token.client import Token
 from solana.rpc.commitment import Commitment
 
-from utils.check_token_accounts_by_owner import check_token_accounts_by_owner
 from utils.instruction_api import make_swap_instruction, fetch_local_pool_keys, get_token_account
 
 from utils.init_logger import config_logger
